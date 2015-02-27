@@ -1,0 +1,1 @@
+$("body").append('<center><b>No matter what happens, don\'t forget. Ishy is awesome.<b></center>');

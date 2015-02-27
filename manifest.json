@@ -1,0 +1,17 @@
+{
+  "name": "IshyFishy",
+  "version": "1.0.1",
+  "description": "My first plugin. Hurrah! :3",
+  "background": {"page": "background.html"},
+  "manifest_version": 2,
+  "browser_action": {
+    "name": "Manipulate DOM",
+    "icons": ["icon.png"],
+    "default_icon": "icon.png"
+  },
+  "content_scripts": [ {
+    "js": [ "jquery.js", "background.js" ],
+    "css": ["styles.css"],
+    "matches": [ "http://*/*", "https://*/*"]
+  }]
+}
